@@ -1,0 +1,111 @@
+# tracer: nop
+#
+# entries-in-buffer/entries-written: 100/4216   #P:1
+#
+#                              _-----=> irqs-off
+#                             / _----=> need-resched
+#                            | / _---=> hardirq/softirq
+#                            || / _--=> preempt-depth
+#                            ||| /     delay
+#           TASK-PID   CPU#  ||||    TIMESTAMP  FUNCTION
+#              | |       |   ||||       |         |
+           <...>-338   [000] ...1   994.458386: tracing_mark_write: 							Unlocking mutex 7
+           <...>-338   [000] ...1   994.458790: tracing_mark_write: 							Locking mutex 6
+           <...>-338   [000] ...1   994.460272: tracing_mark_write: 							Unlocking mutex 6
+           <...>-338   [000] ...1   994.460914: tracing_mark_write: 							Unlocking mutex 5
+           <...>-339   [000] ...1   994.461154: tracing_mark_write: 										Locking mutex 2
+           <...>-339   [000] ...1   994.461349: tracing_mark_write: 										Locking mutex 3
+           <...>-339   [000] ...1   994.461591: tracing_mark_write: 										Unlocking mutex 3
+           <...>-339   [000] ...1   994.461744: tracing_mark_write: 										Locking mutex 4
+           <...>-339   [000] ...1   994.461973: tracing_mark_write: 										Unlocking mutex 4
+           <...>-339   [000] ...1   994.462167: tracing_mark_write: 										Unlocking mutex 2
+           <...>-338   [000] ...1   994.462911: tracing_mark_write: 							Locking mutex 5
+           <...>-338   [000] ...1   994.463174: tracing_mark_write: 							Locking mutex 7
+           <...>-338   [000] ...1   994.463918: tracing_mark_write: 							Unlocking mutex 7
+           <...>-338   [000] ...1   994.464319: tracing_mark_write: 							Locking mutex 6
+           <...>-338   [000] ...1   994.465513: tracing_mark_write: 							Unlocking mutex 6
+           <...>-338   [000] ...1   994.466112: tracing_mark_write: 							Unlocking mutex 5
+           <...>-338   [000] ...1   994.467594: tracing_mark_write: 							Locking mutex 5
+           <...>-338   [000] ...1   994.467913: tracing_mark_write: 							Locking mutex 7
+           <...>-338   [000] ...1   994.468612: tracing_mark_write: 							Unlocking mutex 7
+           <...>-338   [000] ...1   994.469011: tracing_mark_write: 							Locking mutex 6
+           <...>-338   [000] ...1   994.470203: tracing_mark_write: 							Unlocking mutex 6
+           <...>-338   [000] ...1   994.470855: tracing_mark_write: 							Unlocking mutex 5
+           <...>-339   [000] ...1   994.471094: tracing_mark_write: 										Locking mutex 2
+           <...>-339   [000] ...1   994.471289: tracing_mark_write: 										Locking mutex 3
+           <...>-339   [000] ...1   994.471532: tracing_mark_write: 										Unlocking mutex 3
+           <...>-339   [000] ...1   994.471684: tracing_mark_write: 										Locking mutex 4
+           <...>-339   [000] ...1   994.471914: tracing_mark_write: 										Unlocking mutex 4
+           <...>-338   [000] ...1   994.472639: tracing_mark_write: 							Locking mutex 5
+           <...>-340   [000] ...1   994.829989: tracing_mark_write: 													Locking mutex 8
+           <...>-340   [000] ...1   994.830733: tracing_mark_write: 													Unlocking mutex 8
+           <...>-338   [000] ...1   994.831150: tracing_mark_write: 							Locking mutex 7
+           <...>-338   [000] ...1   994.831899: tracing_mark_write: 							Unlocking mutex 7
+           <...>-338   [000] ...1   994.832301: tracing_mark_write: 							Locking mutex 6
+           <...>-338   [000] ...1   994.833497: tracing_mark_write: 							Unlocking mutex 6
+           <...>-338   [000] ...1   994.834096: tracing_mark_write: 							Unlocking mutex 5
+           <...>-338   [000] ...1   994.835138: tracing_mark_write: 							Locking mutex 5
+           <...>-338   [000] ...1   994.835684: tracing_mark_write: 							Locking mutex 7
+           <...>-338   [000] ...1   994.836433: tracing_mark_write: 							Unlocking mutex 7
+           <...>-338   [000] ...1   994.836835: tracing_mark_write: 							Locking mutex 6
+           <...>-338   [000] ...1   994.838143: tracing_mark_write: 							Unlocking mutex 6
+           <...>-338   [000] ...1   994.838787: tracing_mark_write: 							Unlocking mutex 5
+           <...>-339   [000] ...1   994.838911: tracing_mark_write: 										Unlocking mutex 2
+           <...>-337   [000] ...1   994.839258: tracing_mark_write: 				Unlocking mutex 1
+           <...>-337   [000] ...1   994.839799: tracing_mark_write: 				Unlocking mutex 5
+           <...>-338   [000] ...1   994.840864: tracing_mark_write: 							Locking mutex 5
+           <...>-338   [000] ...1   994.841127: tracing_mark_write: 							Locking mutex 7
+           <...>-338   [000] ...1   994.841876: tracing_mark_write: 							Unlocking mutex 7
+           <...>-338   [000] ...1   994.842279: tracing_mark_write: 							Locking mutex 6
+           <...>-338   [000] ...1   994.843752: tracing_mark_write: 							Unlocking mutex 6
+           <...>-338   [000] ...1   994.844392: tracing_mark_write: 							Unlocking mutex 5
+           <...>-339   [000] ...1   994.844642: tracing_mark_write: 										Locking mutex 2
+           <...>-339   [000] ...1   994.844838: tracing_mark_write: 										Locking mutex 3
+           <...>-339   [000] ...1   994.845082: tracing_mark_write: 										Unlocking mutex 3
+           <...>-339   [000] ...1   994.845235: tracing_mark_write: 										Locking mutex 4
+           <...>-339   [000] ...1   994.845464: tracing_mark_write: 										Unlocking mutex 4
+           <...>-338   [000] ...1   994.846184: tracing_mark_write: 							Locking mutex 5
+           <...>-338   [000] ...1   994.846448: tracing_mark_write: 							Locking mutex 7
+           <...>-338   [000] ...1   994.847310: tracing_mark_write: 							Unlocking mutex 7
+           <...>-338   [000] ...1   994.847714: tracing_mark_write: 							Locking mutex 6
+           <...>-338   [000] ...1   994.848909: tracing_mark_write: 							Unlocking mutex 6
+           <...>-338   [000] ...1   994.849507: tracing_mark_write: 							Unlocking mutex 5
+           <...>-338   [000] ...1   994.850459: tracing_mark_write: 							Locking mutex 5
+           <...>-338   [000] ...1   994.850724: tracing_mark_write: 							Locking mutex 7
+           <...>-338   [000] ...1   994.851727: tracing_mark_write: 							Unlocking mutex 7
+           <...>-338   [000] ...1   994.852132: tracing_mark_write: 							Locking mutex 6
+           <...>-338   [000] ...1   994.853327: tracing_mark_write: 							Unlocking mutex 6
+           <...>-338   [000] ...1   994.853969: tracing_mark_write: 							Unlocking mutex 5
+           <...>-339   [000] ...1   994.854162: tracing_mark_write: 										Unlocking mutex 2
+           <...>-337   [000] ...1   994.854464: tracing_mark_write: 				Locking mutex 5
+           <...>-337   [000] ...1   994.854649: tracing_mark_write: 				Locking mutex 1
+           <...>-338   [000] ...1   994.855932: tracing_mark_write: 							Locking mutex 5
+           <...>-338   [000] ...1   994.856196: tracing_mark_write: 							Locking mutex 7
+           <...>-338   [000] ...1   994.857065: tracing_mark_write: 							Unlocking mutex 7
+           <...>-338   [000] ...1   994.857470: tracing_mark_write: 							Locking mutex 6
+           <...>-338   [000] ...1   994.858665: tracing_mark_write: 							Unlocking mutex 6
+           <...>-338   [000] ...1   994.859264: tracing_mark_write: 							Unlocking mutex 5
+           <...>-338   [000] ...1   994.860200: tracing_mark_write: 							Locking mutex 5
+           <...>-338   [000] ...1   994.860464: tracing_mark_write: 							Locking mutex 7
+           <...>-338   [000] ...1   994.861210: tracing_mark_write: 							Unlocking mutex 7
+           <...>-338   [000] ...1   994.861612: tracing_mark_write: 							Locking mutex 6
+           <...>-338   [000] ...1   994.862808: tracing_mark_write: 							Unlocking mutex 6
+           <...>-338   [000] ...1   994.863407: tracing_mark_write: 							Unlocking mutex 5
+           <...>-338   [000] ...1   994.864348: tracing_mark_write: 							Locking mutex 5
+           <...>-338   [000] ...1   994.864613: tracing_mark_write: 							Locking mutex 7
+           <...>-338   [000] ...1   994.865365: tracing_mark_write: 							Unlocking mutex 7
+           <...>-338   [000] ...1   994.865769: tracing_mark_write: 							Locking mutex 6
+           <...>-338   [000] ...1   994.867093: tracing_mark_write: 							Unlocking mutex 6
+           <...>-340   [000] ...1   994.867953: tracing_mark_write: 													Locking mutex 8
+           <...>-339   [000] ...1   994.868288: tracing_mark_write: 										Locking mutex 2
+           <...>-340   [000] ...1   995.226338: tracing_mark_write: 													Unlocking mutex 8
+           <...>-338   [000] ...1   995.228712: tracing_mark_write: 							Unlocking mutex 5
+           <...>-339   [000] ...1   995.229654: tracing_mark_write: 										Locking mutex 3
+           <...>-339   [000] ...1   995.229898: tracing_mark_write: 										Unlocking mutex 3
+           <...>-339   [000] ...1   995.230050: tracing_mark_write: 										Locking mutex 4
+           <...>-339   [000] ...1   995.230372: tracing_mark_write: 										Unlocking mutex 4
+           <...>-339   [000] ...1   995.230569: tracing_mark_write: 										Unlocking mutex 2
+           <...>-337   [000] ...1   995.231216: tracing_mark_write: 				Locking mutex 9
+           <...>-337   [000] ...1   995.233553: tracing_mark_write: 				Unlocking mutex 9
+           <...>-337   [000] ...1   995.234475: tracing_mark_write: 				Unlocking mutex 1
+           <...>-337   [000] ...1   995.235016: tracing_mark_write: 				Unlocking mutex 5
